@@ -1,8 +1,19 @@
 import React from 'react'
+import '../styles/Projects.css'
+import ProjectItem from '../components/ProjectItem'
+import { ProjectList } from '../helpers/ProjectList'
+
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <div className="projects">
+      <h1>Участие в проектах</h1>
+      <div className="projectList">
+        {ProjectList.map((project) => {
+          return <ProjectItem title={project.title} image={project.image} />
+        })}
+      </div>
+    </div>
   )
 }
 

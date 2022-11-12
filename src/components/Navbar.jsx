@@ -20,8 +20,8 @@ function Navbar() {
         </div>
         <div className="links">
             <Link to={'/'}>Главная</Link>
-            <Link to={'/experience'}>Опыт</Link>
             <Link to={'/projects'}>Проекты</Link>
+            <Link to={'/experience'}>Опыт</Link>
         </div>
     </div>
   )
