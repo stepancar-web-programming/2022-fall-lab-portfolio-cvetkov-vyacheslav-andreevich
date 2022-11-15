@@ -12,6 +12,12 @@
   font-size: 40px;
 }
 
+@media only screen and (max-width: 600px) {
+  .projects h1 {
+    font-size: 30px;
+  }
+}
+
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
@@ -64,13 +70,13 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .projectList {
     grid-template-columns: 1fr;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .projectList {
     width: 100%;
   }
@@ -80,3 +86,4 @@
     height: 300px;
   }
 }
+

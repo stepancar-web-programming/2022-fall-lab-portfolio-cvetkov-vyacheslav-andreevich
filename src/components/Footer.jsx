@@ -7,7 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 
 
 function Footer() {
-  const [vkLogoSize, setVkLogoSize] = useState(70)
+  const [vkLogoSize, setVkLogoSize] = useState(window.innerWidth > 600 ? 70 : 50)
 
   useEffect(() => {
     const handleResize = () => {

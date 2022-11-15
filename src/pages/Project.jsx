@@ -9,7 +9,7 @@ function ProjectPage() {
   const { id } = useParams()
   const project = ProjectList[id]
 
-  const [demoWidth, setDemoWidth] = useState(700)
+  const [demoWidth, setDemoWidth] = useState(window.innerWidth < 700 ? window.innerWidth : 700)
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 700) {

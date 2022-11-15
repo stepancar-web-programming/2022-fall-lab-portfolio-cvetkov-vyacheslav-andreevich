@@ -28,3 +28,13 @@
     font-size: 60px;
     color: #3e497a;
 }
+
+@media only screen and (max-width: 600px) {
+    .project h1 {
+        font-size: 32px;
+    }
+
+    .project p {
+        font-size: 24px;
+    }
+}
