@@ -1,7 +1,7 @@
 import React from 'react'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import EmailIcon from '@mui/icons-material/Email'
-import GitHubIcon from '@mui/icons-material/GitHub'
+import TelegramIcon from '@mui/icons-material/Telegram'
 import '../styles/Home.css'
 
 function Home() {
@@ -13,9 +13,9 @@ function Home() {
         </h2>
         <div className="prompt">
           <p>Начинающий Java бэкенд-разработчик.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GitHubIcon />
+          <a href="https://www.socialmediabutterflyblog.com/wp-content/uploads/sites/567/2020/11/LinkedIn-Access-Denied.png"><LinkedInIcon /></a>
+          <a href='mailto:clif2501@gmail.com'><EmailIcon /></a>
+          <a href='https://t.me/clif2501'><TelegramIcon /></a>
         </div>
       </div>
 
@@ -37,7 +37,7 @@ function Home() {
           <li className='item'>
             <h2>Основы работы с SQL</h2>
             <span>
-              DDL, DML-скрипты, любые виды связей, ограничения целостности. Имеется опыт проектирования баз данных.
+              DDL, DML-скрипты, любые виды связей, ограничения целостности, есть опыт проектирования баз данных.
             </span>
           </li>
         </ol>

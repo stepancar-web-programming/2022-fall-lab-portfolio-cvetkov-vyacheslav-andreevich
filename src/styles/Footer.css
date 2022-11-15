@@ -15,7 +15,12 @@
   margin: 20px;
   font-size: 70px;
   cursor: pointer;
-  white-space: nowrap;
+}
+
+#vkIcon {
+  margin: 20px;
+  padding-right: 10px;
+  display: inline-block;
 }
 
 .footer p {
