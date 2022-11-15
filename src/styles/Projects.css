@@ -7,6 +7,11 @@
   flex-direction: column;
 }
 
+.projects h1 {
+  color: #3e497a;
+  font-size: 40px;
+}
+
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
