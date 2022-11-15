@@ -24,8 +24,8 @@ function ProjectPage() {
     };
   })
 
-  const demo = project.video != null ? 
-    <YouTubeEmbed embedId={project.video} demoWidth={demoWidth} /> : 
+  const demo = project.video != null ?
+    <YouTubeEmbed embedId={project.video} demoWidth={demoWidth} /> :
     <img src={project.image} alt='' width={demoWidth}/>
 
   return (
@@ -38,7 +38,7 @@ function ProjectPage() {
       <p>
         <b>Примененные навыки:</b> {project.skills}
       </p>
-      <GitHubIcon />
+      <a href={project.link} ><GitHubIcon /></a>
     </div>
   )
 }
