@@ -6,10 +6,14 @@ import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'
 import Project from './pages/Project';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <title>Вячеслав Цветков</title>
+      </Helmet>
       <Router>
         <Navbar />
         <Routes>
