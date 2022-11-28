@@ -1,8 +1,8 @@
 .home {
-    width: 100%;
-    align-items: center;
-    font-family: "Arial", sans-serif;
-    color: #3e497a;
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #3e497a;
 }
 
 .about {
@@ -27,6 +27,7 @@
 .about .prompt {
   font-size: 30px;
 }
+
 .prompt svg {
   font-size: 60px;
   margin: 5px;
@@ -70,6 +71,7 @@
   .skills {
     text-align: center;
   }
+
   .list {
     padding: 0;
   }
