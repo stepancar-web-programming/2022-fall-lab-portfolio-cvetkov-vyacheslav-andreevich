@@ -1,0 +1,40 @@
+.project {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project h1 {
+  margin-top: 50px;
+  color: #3e497a;
+  font-size: 40px;
+}
+
+.project p:first-of-type {
+  margin-top: 30px;
+}
+
+.project p {
+  width: 80%;
+  margin-top: -10px;
+  font-size: 32px;
+  color: #3e497a;
+}
+
+.project svg {
+  font-size: 60px;
+  color: #3e497a;
+}
+
+@media only screen and (max-width: 600px) {
+  .project h1 {
+    font-size: 32px;
+  }
+
+  .project p {
+    font-size: 24px;
+  }
+}
